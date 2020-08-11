@@ -1,5 +1,31 @@
 # Highlight
 
+
+## v0.5.0-beta.2.1 -> v0.5.0-beta.4
+### Chain ：
+#### 💥 Breaking Changes
+* 升级 muta 到 v0.2.0-beta.4
+* event 下的 service 字段可以由 service 指定，不再是 ServiceContext.service_name。
+* admisson control 给出了拒绝 tx 的明确理由。
+* governance 现在可以正确地更新 metadata了。
+
+#### ✨ Other Highlights
+* 性能优化， trieDB 支持 cache。[参考配置](https://github.com/nervosnetwork/muta-docs/blame/v0.2.0-beta.4/docs/setup/node-config.md#L45)
+* 修复错误，hrp 将在 genesis 之前被加载。
+* 修复错误，apm 将在统计更精准的时间
+* 性能优化，限制一次同步 block 数量上限。
+* 配合审计，修复潜在风险
+    - graphql service 支持 tls 链接，[参考配置](https://github.com/nervosnetwork/muta-docs/blame/v0.2.0-beta.4/docs/setup/node-config.md#L86)
+    - 限制相同 ip 地址的连接数
+
+### SDK：
+#### 💥 Breaking Changes
+* java sdk 修复了由于 graphql 查询语句缺少字段导致返回对象数据不完全的bug。
+* js sdk 修复了 setDefaultVariables 方法的错误。
+* js sdk 更新了 interface，补充了 graphql 查询语句。
+* js sdk 暴露了 metadata service。
+
+
 ## v0.5.0-beta.1 -> v0.5.0-beta.2.1
 ### Chain ：
 #### 💥 Breaking Changes

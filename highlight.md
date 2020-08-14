@@ -1,5 +1,22 @@
 # Highlight
 
+## v0.5.0-beta.4 -> v0.5.0-beta.rc
+### Chain ：
+#### 💥 Breaking Changes
+* Change the kyc service logic.
+
+#### ✨ Other Highlights
+* 配合审计，修复潜在风险
+    - p2p 握手时，检验 chain id。
+    - p2p 传输数据包分片。
+    
+### SDK：
+#### 💥 Breaking Changes
+* N/A
+
+#### ✨ Other Highlights
+* java sdk 增添了一些小需求。
+* js sdk 添加了 runtime type check
 
 ## v0.5.0-beta.2.1 -> v0.5.0-beta.4
 ### Chain ：

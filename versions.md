@@ -73,8 +73,8 @@ Here you can find the previous versions.
 [huobi@v0.5.0-rc]: https://github.com/HuobiGroup/huobi-chain/tree/v0.5.0-rc
 [muta-js-sdk@v0.2.0-rc.0]: https://github.com/nervosnetwork/muta-sdk-js/tree/v0.2.0-rc.0
 [huobi-js-sdk@v0.5.0-rc.0]: https://github.com/HuobiGroup/huobi-chain-js-sdk/tree/v0.5.0-rc.0
-[muta-java-sdk@v0.2.0-rc]: https://github.com/nervosnetwork/muta-sdk-java/tree/v0.2.0-rc.1
-[huobi-java-sdk@v0.5.0-rc]: https://github.com/HuobiGroup/huobi-chain-java-sdk/tree/v0.5.0-rc.1
+[muta-java-sdk@v0.2.0-rc.1]: https://github.com/nervosnetwork/muta-sdk-java/tree/v0.2.0-rc.1
+[huobi-java-sdk@v0.5.0-rc.1]: https://github.com/HuobiGroup/huobi-chain-java-sdk/tree/v0.5.0-rc.1
 [muta-bm@v0.2.0-beta.2]: https://github.com/nervosnetwork/muta-benchmark/tree/v0.2.0-beta.2
 [huobi-bm@v0.5.0-beta.2]: https://github.com/HuobiGroup/huobi-chain-benchmark/tree/v0.5.0-beta.2
 [cli@v0.2.0-rc]: https://github.com/nervosnetwork/muta-cli/tree/v0.2.0-rc

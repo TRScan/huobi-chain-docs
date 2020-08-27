@@ -185,5 +185,26 @@ pub struct AccmulateProfitPayload {
 }
 ```
 
-13.注意
+13.获取矿工的收费地址映射关系
+
+```rust
+fn get_miner_charge_map(&self, ctx: ServiceContext) -> ServiceResponse<Vec<MinerChargeConfig>>;
+
+// 参数
+pub struct MinerChargeConfig {
+    // 矿工地址
+    pub address:              Address,
+    // 矿工的收费地址
+    pub miner_charge_address: Address,
+}
+```
+
+14.获取矿工额外的挖矿奖励的支付地址
+
+```rust
+fn get_miner_profit_outlet_address(&self, ctx: ServiceContext) -> ServiceResponse<Address>;
+
+```
+
+15.注意
 交易手续费的扣除会在每一笔交易执行结束之后自动进行，矿工费的支付会在每一个区块的交易全部执行结束之后进行。具体的交易手续费的计算规则参见[手续费计算](./calc_fee.md)。

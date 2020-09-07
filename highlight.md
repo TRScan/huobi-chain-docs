@@ -1,6 +1,40 @@
 # Highlight
 
-## v0.5.0-beta.4 -> v0.5.0-beta.rc
+## v0.5.0-rc -> v0.5.0-rc.2
+### Chain ：
+#### 💥 Breaking Changes
+* executor 现在会将执行失败的 tx 正确地回滚了
+
+#### ✨ Other Highlights
+* 添加了更多的 metric 的指标
+* 当节点 p2p 握手超时,丢弃节点
+* 现在 p2p 会尝试重新链接一些 unconnectable 的节点
+* 现在 p2p 当遇到 secio io error 的时候,会放弃节点
+* 添加了拜占庭测试
+* 根据log4rs, 现在日志文件可以设定按大小拆分文件, [参考配置](https://github.com/nervosnetwork/muta/blob/9fa17d795dc2e27e9a59753d86b03805c7fe1c5e/devtools/chain/config.toml#L46)
+* 现在共识可以设定执行 gap, 以及单次同步最大 tx 数量, [参考配置](https://github.com/nervosnetwork/muta/blob/9fa17d795dc2e27e9a59753d86b03805c7fe1c5e/devtools/chain/config.toml#L23)
+* Overlord 更新
+    - 修复了无法随机出块的 bug
+    - 修复了应当在过滤 proposal 之前校验 proposer 的 bug
+* 修复了一些 prometheus 指标的小错误
+* 现在在节点重启时, 会正确地从 wal 中恢复合法的交易并传送如 mempool
+* network reactor 修复, network 不会再因为 reactor 崩溃而无法处理更多的网络消息
+* 规范了 log api,更好地适配监控
+* 一些其他软件工程上的重构
+* 为 Governance 服务添加了查询 miner 的接口
+* Riscv 服务被添加回来
+
+### SDK：
+#### 💥 Breaking Changes
+* N/A
+
+# Highlight
+* 添加可以查询新的 Governance 接口
+* js sdk
+    - 修复了 riscv 测试
+    - 更好的项目重构
+
+## v0.5.0-beta.4 -> v0.5.0-rc
 ### Chain ：
 #### 💥 Breaking Changes
 * Change the kyc service logic.

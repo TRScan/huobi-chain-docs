@@ -5,19 +5,19 @@ Please be notice, the version number of toolchains may not consistent with Huobi
 ## Latest version (Stable)
 Here you can find the latest Stable version.
 
-### v0.2.0
+### v0.6.0
 | Component| Link |
 | ----------------------- | -------------------------- |
-| Muta  | [0.2.0][muta@v0.2.0]      | 
-| Huobi-Chain |  [0.5.0][huobi@v0.5.0] |
+| Muta  | [0.2.1][muta@v0.2.1]      | 
+| Huobi-Chain |  [0.6.0][huobi@v0.6.0] |
 | Muta-js-sdk | [0.2.0][muta-js-sdk@v0.2.0] |
-| Huobi-js-sdk | [0.5.0][huobi-js-sdk@v0.5.0] |
+| Huobi-js-sdk | [0.6.0][huobi-js-sdk@v0.6.0] |
 | Muta-java-sdk | [0.2.0][muta-java-sdk@v0.2.0] |
-| Huobi-java-sdk | [0.5.0][huobi-java-sdk@v0.5.0] |
+| Huobi-java-sdk | [0.6.0][huobi-java-sdk@v0.6.0] |
 | Muta-benchmark | [0.2.0][muta-bm@v0.2.0] |
 | Huobi-benchmark | [0.5.0][huobi-bm@v0.5.0] |
 | Muta-CLI | [0.2.0][cli@v0.2.0] |
-| Muta-keypair | [0.2.0][keypair@v0.2.0] |
+| Muta-keypair | [0.2.1][keypair@v0.2.1] |
 
 
 ## Next version (Developing)
@@ -41,6 +41,20 @@ Here you can find the unreleased version.
 ## Past Versions
 
 Here you can find the previous versions.
+
+### v0.5.0
+| Component| Link |
+| ----------------------- | -------------------------- |
+| Muta  | [0.2.0][muta@v0.2.0]      | 
+| Huobi-Chain |  [0.5.0][huobi@v0.5.0] |
+| Muta-js-sdk | [0.2.0][muta-js-sdk@v0.2.0] |
+| Huobi-js-sdk | [0.5.0][huobi-js-sdk@v0.5.0] |
+| Muta-java-sdk | [0.2.0][muta-java-sdk@v0.2.0] |
+| Huobi-java-sdk | [0.5.0][huobi-java-sdk@v0.5.0] |
+| Muta-benchmark | [0.2.0][muta-bm@v0.2.0] |
+| Huobi-benchmark | [0.5.0][huobi-bm@v0.5.0] |
+| Muta-CLI | [0.2.0][cli@v0.2.0] |
+| Muta-keypair | [0.2.0][keypair@v0.2.0] |
 
 ### RC.2
 
@@ -101,6 +115,18 @@ Here you can find the previous versions.
 | Huobi-benchmark | [0.5.0-beta.2][huobi-bm@v0.5.0-beta.2] |
 | Muta-CLI | [0.2.0-beta.2][cli@v0.2.0-beta.2] |
 | Muta-keypair | [0.2.0-beta.2][keypair@v0.2.0-beta.2] |
+
+<!---Huobi@0.6.0--->
+[muta@v0.2.1]: https://github.com/nervosnetwork/muta/tree/v0.2.1
+[huobi@v0.6.0]: https://github.com/HuobiGroup/huobi-chain/tree/v0.6.0
+[muta-js-sdk@v0.2.0]: https://github.com/nervosnetwork/muta-sdk-js/tree/v0.2.0
+[huobi-js-sdk@v0.6.0]: https://github.com/HuobiGroup/huobi-chain-js-sdk/tree/v0.6.0
+[muta-java-sdk@v0.2.0]: https://github.com/nervosnetwork/muta-sdk-java/tree/v0.2.0
+[huobi-java-sdk@v0.6.0]: https://github.com/HuobiGroup/huobi-chain-java-sdk/tree/v0.6.0
+[muta-bm@v0.2.0]: https://github.com/nervosnetwork/muta-benchmark/tree/v0.2.0
+[huobi-bm@v0.5.0]: https://github.com/HuobiGroup/huobi-chain-benchmark/tree/v0.5.0
+[cli@v0.2.0]: https://github.com/nervosnetwork/muta-cli/tree/v0.2.0
+[keypair@v0.2.1]: https://github.com/nervosnetwork/muta/tree/v0.2.1/devtools/keypair
 
 <!---Huobi@0.5.0--->
 [muta@v0.2.0]: https://github.com/nervosnetwork/muta/tree/v0.2.0

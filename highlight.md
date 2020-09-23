@@ -1,4 +1,25 @@
-# Highlight
+# Highlights
+
+## v0.5.0 -> v0.6.0
+### Chain ：
+#### 💥 Breaking Changes
+* N/A
+
+#### ✨ Other Highlights
+* 删除了多余的数据 clone,提高了性能
+* network 修复了网络可能的 hanging 的 bug
+* cli 增加了自由设定默认 config path 和 genesis path 的方法
+* 允许 asset 服务 mint 初始 supply 为0的 asset
+* timestamp 的 feedtime 方法现在会在 stale timestamp 的情况下返回失败
+* kyc 的 所有 payload 现在被重新校验
+* riscv 添加了 setAdmin 方法,并且 contract_call 支持 bech32 格式
+
+### SDK：
+#### 💥 Breaking Changes
+* N/A
+
+#### Highlight
+* 添加了支持 riscv 服务的 setAdmin
 
 
 ## v0.5.0-rc.2 -> v0.5.0
@@ -28,7 +49,7 @@
 #### 💥 Breaking Changes
 * N/A
 
-# Highlight
+#### Highlight
 * 添加了支持 transfer_quota 服务和 timestamp服务的接口
 
 
@@ -60,7 +81,7 @@
 #### 💥 Breaking Changes
 * N/A
 
-# Highlight
+#### Highlight
 * 添加可以查询新的 Governance 接口
 * js sdk
     - 修复了 riscv 测试
